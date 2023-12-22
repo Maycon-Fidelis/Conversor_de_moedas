@@ -26,7 +26,7 @@ npm install axios
 npm install express
 npm install cors
 - Após a instalação das dependências o programa estará com todos os arquivos necessários pronto para ser usado.
-- 
+
 # Executando o projeto
 
 - Tendo todos os arquivos necessários vá até o terminal acessando a pasta /back-end e digite:
