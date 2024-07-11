@@ -1,3 +1,7 @@
+// Definindo a URL da API
+const isLocalHost = window.location.hostname === 'localhost';
+const API_URL = isLocalHost ? 'http://localhost:3000' : 'https://seu-projeto-no-heroku.herokuapp.com';
+
 // Função para evitar que tenha a mesma opção em outro select
 function remover_select_duplicado(valor_remover, valorComparar) {
     for (var i = valor_remover.options.length - 1; i >= 1; i--) {
@@ -30,7 +34,7 @@ select2.addEventListener("change", function () {
 // Fazendo a requisição no back-end 
 
 function requisicao_back(moeda1,moeda2, callback){
-  fetch(`http://localhost:3000/${moeda1}/${moeda2}`)
+  fetch(`${API_URL}/${moeda1}/${moeda2}`)
   .then(response => response.json()) 
   .then(data => {
     const cotacao = parseFloat(data.valor);
