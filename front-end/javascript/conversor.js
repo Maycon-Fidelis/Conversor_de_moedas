@@ -1,6 +1,6 @@
 // Definindo a URL da API
 const isLocalHost = window.location.hostname === 'localhost';
-const API_URL = isLocalHost ? 'http://localhost:3000' : 'https://conversordemoedas.raiway.app/';
+const API_URL = isLocalHost ? 'http://localhost:3000' : 'https://conversordemoedas.raiway.app';
 
 // Função para evitar que tenha a mesma opção em outro select
 function remover_select_duplicado(valor_remover, valorComparar) {
