@@ -1,39 +1,48 @@
+# Conversor de Moedas
 
-                                          Conversor_de_Moedas
-
-# Visão Geral
+## Visão Geral
 Este é um projeto de conversor de moedas que permite converter o valor de 5 moedas diferentes. A cotação de cada moeda é obtida em tempo real utilizando a API da awesomeAPI.
 
-# Objetivos
+## Objetivos
 O principal objetivo deste projeto foi aprender sobre o uso de APIs externas, compreendendo como solicitá-las, entender seu funcionamento e implementar a comunicação entre o back-end e o front-end da página.
 
-# Tecnologias Utilizadas
-
+## Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
 - Node.js
 
-# Requisitos
-Certifique-se de ter o Node.js instalado e os arquivos necessários para executar um servidor local.
+## Demonstração
+![Modo Claro](https://github.com/user-attachments/assets/db4c78ed-ed07-4696-a05f-de97dcffac8e#gh-light-mode-only)
+![Modo Escuro](https://github.com/user-attachments/assets/db4c78ed-ed07-4696-a05f-de97dcffac8e#gh-dark-mode-only)
 
-# Funcionamento
+## Visualizar Projeto
+Você pode visualizar o projeto online [clicando aqui](https://maycon-fidelis.github.io/Conversor_de_moedas/).
 
-- Baixe os arquivos do projeto
-- Abra o terminal e digite os seguintes comandos, um de cada vez, para instalar as dependências necessárias:
-npm install axios
-npm install express
-npm install cors
-- Após a instalação das dependências o programa estará com todos os arquivos necessários pronto para ser usado.
+## Como Executar o Projeto Localmente
 
-# Executando o projeto
+### Requisitos
+Certifique-se de ter o Node.js instalado.
 
-- Tendo todos os arquivos necessários vá até o terminal acessando a pasta /back-end e digite:
-node api
-- Ele irá mostrar a onde estará rodando o localhost que está na porta:
-http://localhost:3000
-- Após isso abra o conversor.html no seu navegador pelo "copy patch" e após isso você estará pronto para executar o programa.
+### Passos
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Maycon-Fidelis/Conversor_de_moedas
+    ```
 
-# Observações
-- Verifique se a porta 3000 esteja livre, caso ela já esteja sendo usada você pode modificar isso no arquivo backe-end/api.js
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd Conversor_de_moedas
+    ```
+
+3. Instale as dependências do back-end e inicie-o:
+    ```bash
+    npm install
+    npm start
+    ```
+
+4. Para executar o front-end, vá até a pasta raiz e selecione o arquivo `index.html`, executando-o pelo caminho absoluto ou via live server.
+
+## Observações
+- Verifique se a porta 3000 está livre. Caso ela já esteja sendo usada, você pode modificar isso no arquivo `backend/index.js`.
